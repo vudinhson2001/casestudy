@@ -87,21 +87,22 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: all 0.8s ease;
+    transition: all 1s ease;
 }
 
 .top .menu-bar.active {
     position: fixed;
     top: 30px;
     right: 0;
+
     transform: translateX(-200px);
-    z-index: 1;
+    z-index: 2;
 }
 
 .top .menu-bar span {
     display: block;
     height: 2px;
-    width: 48px;
+    width: 38px;
     background-color: var(--sub-color);
     position: relative;
 
@@ -142,12 +143,12 @@ a {
 
 .menu-items {
     position: fixed;
-    width: 250px;
+    width: 370px;
     height: 100vh;
     background-color: var(--main-color);
     right: 0;
     top: 0;
-    padding: 200px 50px;
+    padding: 300px 70px;
     transform: translateX(100%);
     transition: all 0.8s ease;
 }
@@ -159,7 +160,7 @@ a {
 .menu-items a {
     color: var(--text-color);
     line-height: 50px;
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
