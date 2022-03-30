@@ -5,7 +5,7 @@ menubar.addEventListener("click", function () {
     document.querySelector(".menu-items").classList.toggle("active")
 })
 const Top = document.querySelector(".top")
-window.addEventListener("scroll", function () {
+window.addEventListener("scroll", function () {  
     const x = this.pageYOffset;
     if (x > 80) {
         Top.classList.add("active")
